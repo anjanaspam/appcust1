@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_hr_nlu.test</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>test</name>
+        <script><![CDATA[var test = Class.create();
+test.prototype = {
+    initialize: function() {
+    },
+
+    type: 'test'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-01 04:20:48</sys_created_on>
+        <sys_id>da29cdba686ea010f8770ffe3f38647b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test</sys_name>
+        <sys_package display_value="Human Resources Scoped App: NLU Model" source="sn_hr_nlu">ddd896e273e0330018dd3ae234f6a7cb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Human Resources Scoped App: NLU Model">ddd896e273e0330018dd3ae234f6a7cb</sys_scope>
+        <sys_update_name>sys_script_include_da29cdba686ea010f8770ffe3f38647b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-01 04:20:48</sys_updated_on>
+    </sys_script_include>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Human Resources Scoped App: NLU Model">ddd896e273e0330018dd3ae234f6a7cb</claim_owner_scope>
+        <claim_timestamp>177ec0534020000001</claim_timestamp>
+        <metadata_update_name>sys_script_include_da29cdba686ea010f8770ffe3f38647b</metadata_update_name>
+        <previous_claim_app_version>19.0.0</previous_claim_app_version>
+        <previous_claim_name>Human Resources Scoped App: NLU Model</previous_claim_name>
+        <previous_claim_scope>ddd896e273e0330018dd3ae234f6a7cb</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-01 04:21:39</sys_created_on>
+        <sys_id>bc6981fa686ea010f8770ffe3f3864f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-01 04:21:39</sys_updated_on>
+    </sys_claim>
+</record_update>
